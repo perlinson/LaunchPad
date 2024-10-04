@@ -8,7 +8,7 @@ import { generateMetadataObject } from '@/lib/shared/metadata';
 
 import fetchContentType from "@/lib/strapi/fetchContentType";
 
-export const runtime = 'edge';
+//export const runtime = 'edge';
 export async function generateMetadata({
   params,
 }: {
