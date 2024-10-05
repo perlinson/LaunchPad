@@ -11,7 +11,7 @@ import fetchContentType from "@/lib/strapi/fetchContentType";
 import { Article } from "@/types/types";
 import { generateMetadataObject } from '@/lib/shared/metadata';
 
-//export const runtime = 'edge';
+export const runtime = 'edge';
 
 export async function generateMetadata({
   params,

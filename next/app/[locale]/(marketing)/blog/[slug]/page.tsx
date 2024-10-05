@@ -6,7 +6,7 @@ import { BlocksRenderer } from '@strapi/blocks-react-renderer';
 
 import { generateMetadataObject } from '@/lib/shared/metadata';
 
-//export const runtime = 'edge';
+export const runtime = 'edge';
 export async function generateMetadata({
   params,
 }: {
