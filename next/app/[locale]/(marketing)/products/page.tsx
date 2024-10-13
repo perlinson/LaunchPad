@@ -11,7 +11,7 @@ import { IconShoppingCartUp } from "@tabler/icons-react";
 import fetchContentType from "@/lib/strapi/fetchContentType";
 import { generateMetadataObject } from '@/lib/shared/metadata';
 
-export const runtime = 'edge';
+//export const runtime = 'edge';
 export async function generateMetadata({
   params,
 }: {
